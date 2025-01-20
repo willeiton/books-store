@@ -12,12 +12,13 @@ This project leverages the **Open Library API** to fetch book and author data se
 - **Get Book Details**: Retrieve detailed information about a specific book, including title, author, and publication date.
 - **List Books by Subject**: Explore books categorized by subjects such as "fantasy," "history," etc.
 - **Author Information**: Retrieve details about authors and their works.
+- **Purchase (demo)**
 
 ---
 
 ## Tech Stack
 
-- **Backend**: Laravel 10
+- **Backend**: Laravel 11
 - **API Integration**: Open Library API
 - **HTTP Client**: Laravel HTTP Client (or Guzzle)
 
@@ -68,45 +69,7 @@ This project leverages the **Open Library API** to fetch book and author data se
 
 ## Endpoints
 
-### 1. Search Books
-
-- **Endpoint**: `/api/books`
-- **Method**: `GET`
-- **Query Parameters**:
-  - `title` (optional): Search by title.
-  - `author` (optional): Search by author.
-  - `subject` (optional): Search by subject.
-- **Example**:
-  ```bash
-  GET /api/books?title=harry+potter&author=rowling
-  ```
-
-### 2. Get Book Details
-
-- **Endpoint**: `/api/books/{id}`
-- **Method**: `GET`
-- **Example**:
-  ```bash
-  GET /api/books/OL82563W
-  ```
-
-### 3. List Books by Subject
-
-- **Endpoint**: `/api/subjects/{subject}`
-- **Method**: `GET`
-- **Example**:
-  ```bash
-  GET /api/subjects/fantasy
-  ```
-
-### 4. Get Author Information
-
-- **Endpoint**: `/api/authors/{id}`
-- **Method**: `GET`
-- **Example**:
-  ```bash
-  GET /api/authors/OL23919A
-  ```
+In process
 
 ---
 
